@@ -9,5 +9,7 @@ public class MainClass {
 		clac.add(10, 20, 30);
 		
 	}
+	
+	
 
 }

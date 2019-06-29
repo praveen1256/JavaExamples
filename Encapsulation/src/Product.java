@@ -1,4 +1,4 @@
-
+// Model or Pojo Class
 public class Product {
 	
 	private String productName;
