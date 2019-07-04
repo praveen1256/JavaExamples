@@ -41,12 +41,28 @@ public class AbstractClassExample {
 		// ImpBusiness2 , Business2
 		Business2 business2 = new ImpBusiness2();
 		business2.business1();
+		business2.businessCalculation(new Clac() {
+			
+			@Override
+			public void add(int a, int b) {
+				// TODO Auto-generated method stub
+				System.out.println("Interface Param "+(a+b));
+				someMethod();
+			}
+		},null);
+		ImpCalc impCalc = new ImpCalc();
+		business2.businessCalculation(impCalc,null);
 		
 		ImpBusiness3 impBusiness3 = new ImpBusiness3();
+		
 		
 		System.out.print(Business3.a);
 //		Business3 business3 = new Business3();
 //		business3.a;
+		
+	}
+	
+	public static void someMethod() {
 		
 	}
 

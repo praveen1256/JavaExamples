@@ -24,5 +24,10 @@ public class ImpBusiness2 implements Business2 , Business3{
 		// TODO Auto-generated method stub
 		System.out.println("Interface Business 4");
 	}
+	
+	@Override
+	public void businessCalculation(Clac calc,Clac.Operations operations) {
+		calc.add(10, 20);
+	}
 
 }
