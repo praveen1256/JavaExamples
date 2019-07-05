@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Human"/>
+<fullyQualifiedTypeName name="home.Home"/>
+<fullyQualifiedTypeName name="main.Human"/>
+<fullyQualifiedTypeName name="EncapExample"/>
+<fullyQualifiedTypeName name="Product"/>
+<fullyQualifiedTypeName name="Shop"/>
+<fullyQualifiedTypeName name="StaticKeyWordEx"/>
+<fullyQualifiedTypeName name="Utils"/>
+<fullyQualifiedTypeName name="newmodel.ModernVehicle"/>
+<fullyQualifiedTypeName name="Car"/>
+<fullyQualifiedTypeName name="Vehicle"/>
+<fullyQualifiedTypeName name="Bike"/>
+<fullyQualifiedTypeName name="NewVehicleModel"/>
+<fullyQualifiedTypeName name="ClassConstructor"/>
+<fullyQualifiedTypeName name="Bus"/>
+<fullyQualifiedTypeName name="MiniBus"/>
+<fullyQualifiedTypeName name="MainBus"/>
+<fullyQualifiedTypeName name="ImpBusiness"/>
+<fullyQualifiedTypeName name="Business"/>
+<fullyQualifiedTypeName name="Business2"/>
+<fullyQualifiedTypeName name="ImpBusiness2"/>
+<fullyQualifiedTypeName name="ChildImp"/>
+<fullyQualifiedTypeName name="ImpBusiness3"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Business3"/>
+<fullyQualifiedTypeName name="ImpCalc"/>
+<fullyQualifiedTypeName name="Clac"/>
+<fullyQualifiedTypeName name="Clac.Operations"/>
+</qualifiedTypeNameHistroy>
