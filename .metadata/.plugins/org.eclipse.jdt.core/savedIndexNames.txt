@@ -1,15 +1,7 @@
 INDEX VERSION 1.131+/home/jazeera/PraveenAndroid/JavaExamples/.metadata/.plugins/org.eclipse.jdt.core
-2175968996.index
 1690995087.index
-2893064692.index
-3875735747.index
-1065738157.index
 805008685.index
-3865976396.index
-2995643527.index
-1006921288.index
-4226251232.index
-122026228.index
 159271599.index
-2162520213.index
-264889873.index
+2893064692.index
+122026228.index
+4226251232.index
