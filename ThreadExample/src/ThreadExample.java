@@ -20,6 +20,11 @@ public class ThreadExample {
 		thread.start();
 		thread2.start();
 		
+//		thread.run();
+//		thread2.run();
+	
+		
+		
 	}
 
 }

@@ -1,5 +1,5 @@
 
-public class Thread1 extends MyClass implements Runnable{
+public class Thread1 extends Thread{
 
 	@Override
 	public void run() {
@@ -7,7 +7,7 @@ public class Thread1 extends MyClass implements Runnable{
 		String threadName = Thread.currentThread().getName();
 //		System.out.println(threadName);
 		for(int i=1;i<=5;i++) {
-			System.out.println(i+", Name : "+threadName);
+			System.out.println(threadName+" ::::::::: "+i);
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
@@ -15,12 +15,6 @@ public class Thread1 extends MyClass implements Runnable{
 				e.printStackTrace();
 			}
 		}	
-	}
-	
-	@Override
-	public void logic() {
-		// TODO Auto-generated method stub
-		super.logic();
 	}
 
 }

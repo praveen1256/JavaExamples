@@ -1241,3 +1241,9 @@ java.lang.IllegalStateException: Cannot get class com.intellij.openapi.vfs.Virtu
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.eclipse.jdt.launching 4 124 2019-07-14 17:56:16.716
+!MESSAGE Launch configuration Config - Loops.kt references closed project KotlinExamples
+
+!ENTRY org.eclipse.jdt.launching 4 124 2019-07-14 18:21:14.265
+!MESSAGE Launch configuration Config - Loops.kt references closed project KotlinExamples

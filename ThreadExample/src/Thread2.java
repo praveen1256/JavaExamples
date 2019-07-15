@@ -5,15 +5,13 @@ public class Thread2 extends Thread{
 	public void run() {
 		// TODO Auto-generated method stub
 		super.run();
-		
-		
 		String threadName = Thread.currentThread().getName();
-		System.out.println(threadName);
+//		System.out.println(threadName);
 		for(int i=1;i<=5;i++) {
-			System.out.println("Thread 1 ::::::::: "+i+", Name : "+threadName);
+			System.out.println(i+", Name : "+threadName);
 			try {
 				Thread.sleep(1000);
-				System.out.println("After Sleep");
+//				System.out.println("After Sleep");
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
