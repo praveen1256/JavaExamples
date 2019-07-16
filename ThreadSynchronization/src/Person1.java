@@ -7,7 +7,7 @@ public class Person1 extends Thread {
 	}
 
 	public void run() {
-		t.printTable(5);
+		t.calculate(5);
 	}
 }
 

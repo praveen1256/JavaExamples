@@ -1247,3 +1247,13 @@ java.lang.IllegalStateException: Cannot get class com.intellij.openapi.vfs.Virtu
 
 !ENTRY org.eclipse.jdt.launching 4 124 2019-07-14 18:21:14.265
 !MESSAGE Launch configuration Config - Loops.kt references closed project KotlinExamples
+!SESSION 2019-07-16 07:42:50.752 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_212
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-07-16 07:43:05.388
+!MESSAGE Using Apache MINA sshd as ssh client.

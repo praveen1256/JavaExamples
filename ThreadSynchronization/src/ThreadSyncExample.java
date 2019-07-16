@@ -4,10 +4,12 @@ public class ThreadSyncExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Table obj = new Table();//only one object  
-		Person1 t1=new Person1(obj);  
-		Person2 t2=new Person2(obj);  
-		t1.start();  
-		t2.start();  
+		
+		Person1 p1=new Person1(obj);  
+		Person2 p2=new Person2(obj);  
+		
+		p1.start();  
+		p2.start();  
 
 	}
 

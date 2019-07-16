@@ -7,6 +7,6 @@ public class Person2 extends Thread {
 	}
 
 	public void run() {
-		t.printTable(100);
+		t.calculate(100);
 	}
 }
