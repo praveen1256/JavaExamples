@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.Iterator;
+import java.util.ListIterator;
 import java.util.Vector;
 
 public class ListExample {
@@ -12,21 +13,35 @@ public class ListExample {
 		// Generic Class
 		ArrayList<String> list=new ArrayList<String>();//Creating arraylist  
 		
+		
 	    list.add("Ravi");//Adding object in arraylist    
 	    list.add("Vijay");    
 	    list.add("Ravi");    
-	    list.add("Ajay");    
+	    list.add("Ajay");  
+	    
+	    list.remove(5);
+	    
+	    list.add(1, "Kumar");
+	    boolean isKumarAvailable = list.contains("kumar");
+	    
+	    System.out.println(isKumarAvailable);
+	   
 	      //Invoking arraylist object   
 //	      System.out.println(list); 
 //	      System.out.println(list.lastIndexOf("Ravi")); 
 //	      System.out.println(list.size());
 	      
 	      Iterator<String> itr=list.iterator();  
-
+	      
 	      while(itr.hasNext()){  
-	       System.out.println(itr.next());  
+	    	  String name = itr.next();// changing the index
+//	    	  String name1 = itr.next();
+//	       System.out.println(name);  
+//	       System.out.println(":"+name1);  
+	       
+	       if(name.equalsIgnoreCase("Kumar"))
+		      itr.remove();
 	      }
-	      itr.remove();
 	      
 	      System.out.println(list); 
 //	      System.out.println("For Loop");
@@ -41,7 +56,12 @@ public class ListExample {
 	      vecList.add("Ajay");    
 	      
 	      Enumeration<String> vecIte = vecList.elements();
+	      ListIterator<String> listIterator = list.listIterator();
+//	      listIterator.add("Kumar1");
 	      
+	      while(listIterator.hasNext()) {
+	    	  System.out.println("LI : "+listIterator.next());
+	      }
 	      
 	}
 
