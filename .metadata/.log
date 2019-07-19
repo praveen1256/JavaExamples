@@ -1260,3 +1260,51 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.jdt.launching 4 124 2019-07-18 07:32:53.461
 !MESSAGE Launch configuration Config - Loops.kt references closed project KotlinExamples
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 07:47:43.825
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 07:47:43.828
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 07:49:39.928
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 07:49:39.930
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 07:49:53.990
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 07:49:53.991
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 07:57:41.339
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 07:57:41.341
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 08:09:22.842
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 08:09:22.845
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 08:09:22.846
+!MESSAGE Cannot resolve jetElement (CLASS) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 08:12:04.883
+!MESSAGE Cannot resolve jetElement (FUN) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 08:21:51.009
+!MESSAGE Cannot resolve jetElement (FUN) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 08:21:51.014
+!MESSAGE Cannot resolve jetElement (FUN) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 08:21:52.310
+!MESSAGE Cannot resolve jetElement (FUN) to light elements: there is no corresponding java project
+
+!ENTRY org.jetbrains.kotlin.core 2 0 2019-07-19 08:21:52.314
+!MESSAGE Cannot resolve jetElement (FUN) to light elements: there is no corresponding java project

@@ -11,10 +11,10 @@ fun main(args: Array<String>){
 	val range3 = 5 downTo 1 step 2
 	
 	// This range contains the values from a,b,c.....z
-	val range4 = 'a'..'z'
+	val range4 = 'a'..'s'
 	
 	// To check b is present in range4 are not
-	var isBPresent = 'b' in range4
+	var isBPresent = 'z' in range4
 	
 	// This range contains the number 5,4,3,2,1
 	var countDown = 5.downTo(1)

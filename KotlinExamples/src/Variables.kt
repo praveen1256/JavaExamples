@@ -31,7 +31,7 @@ fun main(args: Array<String>){
 	
 }
 
-class School{
+class School {
 	
 	var schoolName : String = ""
 	
@@ -47,4 +47,8 @@ fun myIdPrint(myNumber : Int){
 
 fun myIdPrint(myNumber : Int){
 	println("Fun My Id "+myNumber)
+}
+
+class MainOffice{
+	
 }

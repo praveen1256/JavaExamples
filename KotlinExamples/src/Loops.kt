@@ -2,7 +2,11 @@ fun main(args: Array<String>){
 	
 	println("Loops")
 	
-	for(i in 1..10){
+	var range = 1..10
+	val range3 = 5 downTo 1 step 2
+	
+	
+	for(i in range3){
 		println(i)
 	}
 }
