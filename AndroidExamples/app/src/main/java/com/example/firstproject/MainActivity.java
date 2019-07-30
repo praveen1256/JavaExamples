@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bt_login = findViewById(R.id.bt_login);
 
         bt_login.setOnClickListener(this);
+        bt_login.setVisibility(View.GONE);
 
         Log.v(TAG,"onCreate");
     }

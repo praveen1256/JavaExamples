@@ -33,4 +33,132 @@
         android:layout_height="wrap_content"
         android:text="Login"/>
 
+
+    <LinearLayout
+        android:weightSum="2"
+        android:background="#0000AA"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:visibility="visible"
+            android:background="#AA0000"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Button1"/>
+
+        <Button
+            android:visibility="gone"
+            android:layout_margin="20dp"
+            android:background="#00AA00"
+            android:layout_weight="1.5"
+            android:paddingStart="200dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Button2"
+            android:paddingLeft="10dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="#AAAA00"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <Button
+            android:id="@+id/bt_button1"
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            android:background="#AA0000"
+            android:layout_height="wrap_content"
+            android:text="Relative 1"/>
+
+
+        <Button
+            android:id="@+id/bt_button2"
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            android:layout_alignBottom="@id/bt_button1"
+            android:background="#AA0000"
+            android:layout_height="wrap_content"
+            android:text="Relative 2"/>
+
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="250dp">
+
+        <Button
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/bt_button3"
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.5"
+            android:visibility="visible"
+            android:layout_marginTop="100dp"
+            android:background="#AA0000"
+            android:layout_height="wrap_content"
+            android:text="Button 3"/>
+
+
+        <Button
+            app:layout_constraintWidth_percent="0.5"
+            app:layout_constraintTop_toTopOf="@id/bt_button3"
+            app:layout_constraintStart_toEndOf="@id/bt_button3"
+            android:id="@+id/bt_button4"
+            android:layout_width="0dp"
+            android:visibility="visible"
+            android:background="#AA0000"
+            android:layout_height="wrap_content"
+            android:text="Button 4"/>
+
+
+        <Button
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bt_button3"
+            android:id="@+id/bt_button5"
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            android:background="#AA0000"
+            android:layout_height="wrap_content"
+            android:text="Button 5"/>
+
+        <Button
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bt_button3"
+            android:id="@+id/bt_button6"
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            android:background="#AA0000"
+            android:layout_height="wrap_content"
+            android:text="Button 6"/>
+
+        <Button
+            app:layout_constraintStart_toEndOf="@id/bt_button5"
+            app:layout_constraintEnd_toStartOf="@id/bt_button6"
+            app:layout_constraintTop_toTopOf="@id/bt_button5"
+            android:id="@+id/bt_button7"
+            android:layout_width="0dp"
+            android:visibility="visible"
+            android:background="#00AA00"
+            android:layout_height="wrap_content"
+            android:text="Button 7"/>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
 </LinearLayout>
