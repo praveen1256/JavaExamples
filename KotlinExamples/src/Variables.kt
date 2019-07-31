@@ -20,6 +20,7 @@ fun main(args: Array<String>){
 	myIdPrint(myNumber)
 	
 	var school = School()
+	school = School()
 	school.schoolName = "HPS"
 	school.myIdPrint(myNumber)
 	school.mySchoolName()

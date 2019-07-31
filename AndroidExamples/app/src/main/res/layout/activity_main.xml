@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login Screen"
+        android:textAllCaps="true"
         android:textSize="20dp"/>
 
 
@@ -19,11 +20,18 @@
         android:id="@+id/et_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="1234567890abc"
+        android:maxLines="3"
+        android:inputType="textVisiblePassword"
         android:hint="Enter User Name"/>
 
     <EditText
         android:id="@+id/et_password"
+        android:text="1234569"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
         android:layout_width="match_parent"
+        android:background="@android:color/transparent"
         android:layout_height="wrap_content"
         android:hint="Enter Password"/>
 
@@ -66,7 +74,6 @@
     </LinearLayout>
 
     <RelativeLayout
-        android:background="#AAAA00"
         android:layout_width="match_parent"
         android:layout_height="200dp">
 
@@ -75,6 +82,7 @@
             android:layout_width="wrap_content"
             android:visibility="visible"
             android:background="#AA0000"
+            android:layout_centerInParent="true"
             android:layout_height="wrap_content"
             android:text="Relative 1"/>
 
@@ -83,7 +91,8 @@
             android:id="@+id/bt_button2"
             android:layout_width="wrap_content"
             android:visibility="visible"
-            android:layout_alignBottom="@id/bt_button1"
+            android:layout_below="@id/bt_button1"
+            android:layout_toRightOf="@id/bt_button1"
             android:background="#AA0000"
             android:layout_height="wrap_content"
             android:text="Relative 2"/>
